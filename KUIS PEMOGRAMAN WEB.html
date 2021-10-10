@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Halaman Utama</title>
+</head>
+
+<body id="#">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md text-#4287f5 mb-3">
+        <div class="container">
+            <a href="http://sik.kd-serang.upi.edu/" target="_blank" class="navbar-brand text-black"><img
+                    src="LOGO-UPI.jpg" alt="icon" width="50" height="50">
+                Sistem Informasi Kelautan
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item dropdown mx-1">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Profil
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
+                            <li><a class="dropdown-item" href="visimisi.html">Visi Misi</a></li>
+                            <li><a class="dropdown-item" href="strukturorganisasi.html">Struktur Organisasi</a></li>
+                            <li><a class="dropdown-item" href="#">Dosen</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#">Akademik</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#">Akreditasi</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#">Download</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Akhir navbar -->
+
+    <!-- Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide mb-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner md">
+            <div class="carousel-item active">
+                <img src="upiserang.jpeg" class="d-block w-100" alt="UPI Kampus Serang" style="height: 740px;">
+                <div class="carousel-caption d-none d-md-block text-center">
+                    <h2>Tentang Kampus.</h2>
+                    <p>Lorem ipsum, dolor sit amet adipsicing elit. Nam perspiciatis doloremque tenetur prasentium nemo
+                        iste dolor nostrum quod velit, alias officiis in adipisci molestias. Deleniti dolores quia
+                        accusantium a ab.</p>
+                    <a class="btn btn-primary btn-lg mb-3" href="#" role="button">Selengkapnya</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="diving.png" class="d-block w-100" alt="Kegiatan Mahasiswa" style="height: 740px;">
+                <div class=" carousel-caption d-none d-md-block text-start">
+                    <h2>Kegiatan Mahasiswa.</h2>
+                    <p>Lorem ipsum dolor sit, amet adipsicing elit. Expedita nulla quidem molestias, fuga nesciunt
+                        sapiente ullam error rerum, cum neque delectus ut voluptatibus dignissmos voluptatum labore
+                        doloribus enim hic consectetur.</p>
+                    <a class="btn btn-primary btn-lg mb-3" href="#" role="button">Selengkapnya</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="library.jpeg" class="d-block w-100" alt="Perpustakaan" style="height: 740px;">
+                <div class=" carousel-caption d-none d-md-block text-end">
+                    <h2>Perpustakaan.</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipsicing elit. Ad officies nam soluta quae, numquarn
+                        fuga modi hic ut alias reiciendis aut iste est deleniti accusamus magnam officia iure.</p>
+                    <a class="btn btn-primary btn-lg mb-3" href="#" role="button">Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Akhir carousel -->
+
+    <!-- Content -->
+    <section id="content">
+        <div class="container">
+            <div class="row justify-content-center p-5">
+                <div class="col-md-4">
+                    <h2>Berita</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipsicing elit. Nulia impedit quibusdam in voluptas
+                        recusandae omnis earum consectetur reiciendis sit blanditiis mollitia laboriosam natus nihil
+                        quas, quam iusto ab fuga. Numquam.</p>
+                    <a href="#">Selengkapnya</a>
+                </div>
+                <div class="col-md-4">
+                    <h2>Kemahasiswaan</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipsicing elit. Nulia impedit quibusdam in voluptas
+                        recusandae omnis earum consectetur reiciendis sit blanditiis mollitia laboriosam natus nihil
+                        quas, quam iusto ab fuga. Numquam.
+                    </p>
+                    <a href="#">Selengkapnya</a>
+                </div>
+                <div class="col-md-4">
+                    <h2>Himataska</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipsicing elit. Nulia impedit quibusdam in voluptas
+                        recusandae omnis earum consectetur reiciendis sit blanditiis mollitia laboriosam natus nihil
+                        quas, quam iusto ab fuga. Numquam.us magni veniam delectus.
+                    </p>
+                    <a href="https://www.himataska.web.id/" target="_blank">Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col embed-responsive"><iframe width="500" height="315"
+                        src="https://www.youtube.com/embed/uSpL9GR0QaI" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-md-7 text-start">
+                    <h2>Tentang Kami</h2>
+                    <p>Program Studi Sistem Informasi Kelautan merupakan bagian dari Ilmu Kelautan yang fokus pada
+                        analisis data kelautan baik numerik maupun spasial untuk kemudian diintegrasikan berbasis sistem
+                        informasi yang dikembangkan sebagai dasar pengambilan keputusan. Bidang kajian dari prodi SIK
+                        terdiri dari Ilmu Kelautan, Ilmu Perikanan, Sistem Informasi, Sistem Informasi Geografis, serta
+                        Penginderaan Jauh Keluatan dan Ilmu Kelautan. Pembelajaran di SIK selain dilaksanakan di ruang
+                        kelas juga dilaksanakan di laboratorium, e-learning, field study ke pesisir dan laut.
+                        Pembelajaran di SIK dilaksanakan oleh dosen SIK dan dosen dari Kampus UPI Serang serta para
+                        praktisi dan professional di bidangnya</p>
+                    <button type="button" class="btn btn-primary">Selengkapnya</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Akhir content -->
+
+    <!-- DOM -->
+    <section>
+        <div class="container pt-5">
+            <div class="row align-items-md-stretch">
+                <div id="hapus1" class="col-md-6">
+                    <div class="h-100 p-5 bg-light border rounded-3">
+                        <h2>Latihan JavaScript</h2>
+                        <p>Or, keep it light and add a border for some added definition to the boundaries of your
+                            content. Be sure to look under the hood at the source HTML here as we've adjusted the
+                            alignment and sizing of both column's content for equal-height.
+                        </p>
+                        <button class="btn btn-outline-secondary" onclick="deleteElement()">Hapus Section Ini</button>
+                        <script>
+                            function deleteElement() {
+                                var elemt = document.getElementById("hapus1");
+                                elemt.remove();
+                            }
+                        </script>
+                    </div>
+                </div>
+                <div id="hapus2" class="col-md-6">
+                    <div class="h-100 p-5 text-white bg-dark rounded-3">
+                        <h2>Latihan JavaScript</h2>
+                        <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron
+                            look. Then, mix and match with additional component themes and more.
+                        </p>
+                        <button class="btn btn-outline-light" onclick="myFunction()">Hapus Section
+                            Ini</button>
+                        <script>
+                            function myFunction() {
+                                var elemt = document.getElementById("hapus2");
+                                elemt.remove();
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir dom -->
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <hr>
+            <div class="row">
+                <div class="col-md-4 mt-5">
+                    <h2>Tanyakan Sesuatu</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nama</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="name"
+                                placeholder="nama">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="email"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim</button>
+                    </form>
+                </div>
+                <div class="col-md-6 mt-5">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.03704225581!2d106.14447451477206!3d-6.125717661770098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418adaa4f7f563%3A0x950ec58123df8596!2sUniversitas%20Pendidikan%20Indonesia%20(UPI)%20Kampus%20Serang!5e0!3m2!1sid!2sid!4v1633591438187!5m2!1sid!2sid"
+                        width="860px" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <!-- AKhir contact-->
+
+    <!-- Footer -->
+    <footer class="container pb-4 ps-5">
+        <p> &#169; 2021 Jagat Danirwana (2000440) </p>
+    </footer>
+    <!-- AKhir footer -->
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+        function removeHandler() {
+            document.getElementById("lat2").removeEventListener("onclick", myFunction);
+        }
+    </script>
+</body>
+
+</html>
